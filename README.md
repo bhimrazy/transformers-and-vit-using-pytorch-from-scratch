@@ -1,4 +1,4 @@
-# transformer-pytorch
+# Transformer PyTorch
 This repository is all about transformer and its implementaions along with some examples.
 
 ## Setup
