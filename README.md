@@ -8,13 +8,11 @@ Moreover, ViT is also trained on a custom dataset using pretrained weigths.
 
 > This repo is **_still under development_**.
 
-## Installation & Setup
+## Setup
 
 ```bash
-  pip install git+https://github.com/bhimrazy/transformers-and-vit-using-pytorch-from-scratch
-```
-
-```bash
+    # clone github repo
+    git clone https://github.com/bhimrazy/transformers-and-vit-using-pytorch-from-scratch
     #create a python environment
     $ python -m venv venv
     #activate environment
@@ -24,9 +22,12 @@ Moreover, ViT is also trained on a custom dataset using pretrained weigths.
 ```
 
 ## Usage/Examples
+
 > ViT Example
+
 ```shell
   # ViT Example using transformer cli
+  # pip install git+https://github.com/bhimrazy/transformers-and-vit-using-pytorch-from-scratch
   $ transformer
   Usage: transformer [OPTIONS] COMMAND [ARGS]...
 
