@@ -7,6 +7,7 @@ Transformer using PyTorch from scratch with some examples.
 Moreover, ViT is also trained on a custom dataset using pretrained weigths.
 
 
+> This repo is **_still under development_**.
 
 ## Installation & Setup
 ```bash
