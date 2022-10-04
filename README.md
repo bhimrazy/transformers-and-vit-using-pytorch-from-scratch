@@ -24,6 +24,33 @@ Moreover, ViT is also trained on a custom dataset using pretrained weigths.
 ```
 
 ## Usage/Examples
+> ViT Example
+```shell
+  # ViT Example using transformer cli
+  $ transformer
+  Usage: transformer [OPTIONS] COMMAND [ARGS]...
+
+  Options:
+    --help  Show this message and exit.
+
+  Commands:
+    vit-classify  ViT Imagenet Classifier Args: path (str): image path
+
+  $ transformer vit-classify --path cat.png
+  # Predicting...
+
+  # Classes Probabilities.
+  # 0: tabby, tabby_cat                              --- 0.8001
+  # 1: tiger_cat                                     --- 0.1752
+  # 2: Egyptian_cat                                  --- 0.0172
+  # 3: lynx, catamount                               --- 0.0018
+  # 4: Persian_cat                                   --- 0.0011
+
+  # or directly using main.py
+  $ python main.py vit-classify --path cat.png
+```
+
+OR
 
 ```shell
   # ViT Example
@@ -47,13 +74,13 @@ Moreover, ViT is also trained on a custom dataset using pretrained weigths.
   # 4: Persian_cat                                   --- 0.0011
 ```
 
-## 📚References:
+## 📚References
 
-- Vaswani et al. (2017). Attention Is All You Need. arXiv. https://doi.org/10.48550/arXiv.1706.03762
-- Dosovitskiy et al. An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale. arXiv. https://doi.org/10.48550/arXiv.2010.11929
-- Wightman, R. (2019). PyTorch Image Models. GitHub repository. https://github.com/rwightman/pytorch-image-models
-- mildlyoverfitted. (2021, March 5). Vision Transformer in PyTorch [Video]. YouTube. https://www.youtube.com/watch?v=ovB0ddFtzzA
-- Yannic Kilcher. (2020, October 4). An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale [Video]. YouTube. https://www.youtube.com/watch?v=TrdevFK_am4
+- Vaswani et al. (2017). Attention Is All You Need. arXiv. <https://doi.org/10.48550/arXiv.1706.03762>
+- Dosovitskiy et al. An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale. arXiv. <https://doi.org/10.48550/arXiv.2010.11929>
+- Wightman, R. (2019). PyTorch Image Models. GitHub repository. <https://github.com/rwightman/pytorch-image-models>
+- mildlyoverfitted. (2021, March 5). Vision Transformer in PyTorch [Video]. YouTube. <https://www.youtube.com/watch?v=ovB0ddFtzzA>
+- Yannic Kilcher. (2020, October 4). An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale [Video]. YouTube. <https://www.youtube.com/watch?v=TrdevFK_am4>
 
 ## Authors
 
