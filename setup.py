@@ -6,14 +6,14 @@ with open("requirements.txt", "r", encoding="utf-8") as f:
     requirements = f.read()
 
 setup(
-    name="transformer-pytorch",
+    name="transformers-pytorch",
     version="0.1.0",
     author="Bhimraj Yadav",
     author_email="bhimrajyadav977@gmail.com",
-    description="Transformer Implementation from scratch using PyTorch.",
+    description="Transformers Implementation from scratch using PyTorch.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/bhimrazy/transformer-pytorch",
+    url="https://github.com/bhimrazy/transformers-and-vit-using-pytorch-from-scratch",
     packages=find_packages(),
     py_modules=['main'],
     install_requires=[requirements],
