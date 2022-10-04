@@ -24,7 +24,7 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        py-transformer=main:cli
+        transformer=main:cli
     ''',
     python_requires='>=3.6',
 )
