@@ -12,7 +12,7 @@ Moreover, ViT is also trained on a custom dataset using pretrained weigths.
 
 ```bash
     # clone github repo
-    git clone https://github.com/bhimrazy/transformers-and-vit-using-pytorch-from-scratch
+    $ git clone https://github.com/bhimrazy/transformers-and-vit-using-pytorch-from-scratch
     # create a python environment
     $ python -m venv venv
     # activate environment
